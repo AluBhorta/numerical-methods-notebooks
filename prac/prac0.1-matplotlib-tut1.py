@@ -207,6 +207,12 @@ plt.show()
 
 # plot default test data
 '''
+'''
+
+
+
+from mpl_toolkits.mplot3d import axes3d
+
 x,y,z = axes3d.get_test_data()
 
 fig = plt.figure()
@@ -222,11 +228,11 @@ ax.plot_wireframe(x,y,z, rstride=rst, cstride=cst)
 
 
 plt.show()
-'''
 
 
 # plot complex surface plot : sin( sqrt(x^2 + y^2) ) in -5<=x<=5
 '''
+
 from matplotlib import cm
 fig = plt.figure()
 
@@ -247,4 +253,3 @@ ax.set_zlabel('Z')
 
 plt.show()
 '''
-
